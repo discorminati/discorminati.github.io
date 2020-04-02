@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.alayout{
+    border: 7px solid #ffffff;
+    background-color: #ff5050;
+    font-size:1.3em;
+}
+.aplayout{
+    border: 7px solid #ffffff;
+    background-color: #ff351f;
+    font-size:1em
+}
+.ilayout{
+    border: 7px solid #ffffff;
+    background-color: #66ccff;
+    font-size:1.3em;
+}
+.iplayout {
+    border: 7px solid #ffffff;
+    background-color: #3399ff;
+
+}
+.alayout, .ilayout{
+    height : 48px;
+}
+.alayout, .aplayout, .ilayout, .iplayout {
+    text-align: left;
+    padding : 15 px;
+    width : 1000px;
+}
+.al-levelcontainer, .il-levelcontainer{
+    display: flex;
+    margin: auto;
+}
+.btnicost{
+    border: 1px solid #000000;
+    background-image : linear-gradient(#00a3cc, #66ccff);
+}
+
+.btnacost{
+    border: 1px solid #000000;
+    background-image: linear-gradient(#ff5050, #ffcccc);
+}
+.btnicost, .btnacost{
+    cursor: pointer;
+    height: 34px;
+    font-size: 18px;
+}
+
+.buttons {
+    user-select:none;
+}
+.locked {
+    background-color: grey;
+    border: 1 px solid #000000;
+    cursor: not-allowed;
+}
+.hidden {
+    position: absolute;
+    left: -9999;
+}
